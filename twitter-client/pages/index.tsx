@@ -9,7 +9,7 @@ import { Tweet } from "@/gql/graphql";
 import { GetServerSideProps } from "next";
 import { graphqlClient } from "@/clients/api";
 import { getAllTweetsQuery } from "@/graphql/query/tweet";
-import Twitterlayout from "@/components/Layout/TwitterLayout";
+import Twitterlayout from "@/components/FeedCard/Layout/TwitterLayout";
 
 interface HomeProps {
   tweets?: Tweet[];
